@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.5" />
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="api\^interfaces\" />
+      <Folder Include="api\view_models\" />
+      <Folder Include="application\^interfaces\" />
+      <Folder Include="application\models\" />
+      <Folder Include="application\services\" />
+      <Folder Include="infrastructure\data_context\" />
+      <Folder Include="infrastructure\^interfaces\" />
+      <Folder Include="infrastructure\migrations\" />
+      <Folder Include="infrastructure\persistence\" />
+      <Folder Include="infrastructure\repositories\" />
+      <Folder Include="infrastructure\seed_data\" />
+      <Folder Include="tests\integration\" />
+      <Folder Include="tests\^interfaces\" />
+      <Folder Include="tests\unit\" />
+    </ItemGroup>
+
+</Project>
