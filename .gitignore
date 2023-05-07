@@ -38,4 +38,4 @@ msbuild.wrn
 .vs/
 
 # passwords and server configs
-app.config
+appsettings.json
