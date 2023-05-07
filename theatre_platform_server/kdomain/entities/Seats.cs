@@ -1,5 +1,5 @@
+using theatre_platform_server.kdomain._interfaces.entities;
 using theatre_platform_server.kdomain.entities.enums;
-using theatre_platform_server.kdomain.interfaces.entities;
 
 namespace theatre_platform_server.kdomain.entities
 {

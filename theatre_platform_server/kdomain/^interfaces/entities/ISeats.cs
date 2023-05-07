@@ -1,6 +1,6 @@
 using theatre_platform_server.kdomain.entities.enums;
 
-namespace theatre_platform_server.kdomain.interfaces.entities
+namespace theatre_platform_server.kdomain._interfaces.entities
 {
     public interface ISeats : IAbstractTableEntity
     {

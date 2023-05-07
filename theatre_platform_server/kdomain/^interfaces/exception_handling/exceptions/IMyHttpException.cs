@@ -1,4 +1,4 @@
-namespace theatre_platform_server.kdomain.interfaces.exception_handling.exceptions
+namespace theatre_platform_server.kdomain._interfaces.exception_handling.exceptions
 {
     public interface IMyHttpException
     {

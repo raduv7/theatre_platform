@@ -1,4 +1,4 @@
-using theatre_platform_server.kdomain.interfaces.entities;
+using theatre_platform_server.kdomain._interfaces.entities;
 
 namespace theatre_platform_server.kdomain.entities
 {
